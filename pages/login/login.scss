@@ -1,0 +1,133 @@
+.login-section{
+    .container{
+
+        main{
+            height: 85vh;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            padding: 80px 0;
+            justify-content: center;
+            .slider{
+                width: 500px;
+                height: 750px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                #bg{
+                    width: 100%;
+                }
+                #pic{
+                    position: absolute;
+                    right: 12.2%;
+                    top: 8%;
+                    width: 54%;
+
+                }
+            }
+            .form-section{
+                width: 400px;
+                height: 600px;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                form{
+                    border: 1px solid rgba(128, 128, 128, 0.313);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 40px;
+                    gap: 12px;
+                    h1{
+                        font-style: 36px;
+                        font-weight: 400;
+                        margin-bottom: 50px;
+                    }
+                    input{
+                        border: 1px solid rgba(182, 182, 182, 0.461);
+                        background: rgba(181, 181, 181, 0.089);
+                        padding: 8px 16px;
+                        width: 100%;
+                        font-size: 15px;
+                        letter-spacing: .4px;
+                        transition: .3s;
+                        &:hover{
+                            border: 1px solid rgb(106, 106, 106);
+                        }
+                        &:focus{
+                            border-radius: 12px;
+                            background: #fff;
+                            border: 1px solid rgba(182, 182, 182, 0.461);
+                        }
+                    }
+                    #btn-login{
+                        width: 100%;
+                        padding: 8px;
+                        text-align: center;
+                        font-size: 17px;
+                        margin-top: 6px;
+                        color: #fff;
+                        letter-spacing: 1.6px;
+                        background: rgb(68, 133, 253);
+                        &:hover{
+                        background: rgb(46, 119, 255);
+                        }
+                    }
+                    h3{
+                        color: gray;
+                        font-weight: 200;
+                        letter-spacing: -1.7px;
+                        margin-bottom: 6px;
+                        span{
+                            color: rgb(79, 79, 79);
+                        }
+                    }
+                    #log-face{
+                        letter-spacing: 1.6px;
+                    }
+                    #forgot-pass{
+                        color: gray;
+                        font-size: 14px;
+                    }
+                }   
+                
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+        footer{
+            height: 15vh;
+            padding: 60px 0;
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 12px;
+                a{
+                    color: gray;
+                }
+            }
+
+            .lang{
+                display: flex;
+                justify-content: center;
+                padding: 20px 0;
+                gap: 16px;
+                color: gray;
+            }
+        }
+    }
+}

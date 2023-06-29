@@ -1,0 +1,112 @@
+.login-section .container main {
+  height: 85vh;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 80px 0;
+  justify-content: center;
+}
+.login-section .container main .slider {
+  width: 500px;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.login-section .container main .slider #bg {
+  width: 100%;
+}
+.login-section .container main .slider #pic {
+  position: absolute;
+  right: 12.2%;
+  top: 8%;
+  width: 54%;
+}
+.login-section .container main .form-section {
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-section .container main .form-section form {
+  border: 1px solid rgba(128, 128, 128, 0.313);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 12px;
+}
+.login-section .container main .form-section form h1 {
+  font-style: 36px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.login-section .container main .form-section form input {
+  border: 1px solid rgba(182, 182, 182, 0.461);
+  background: rgba(181, 181, 181, 0.089);
+  padding: 8px 16px;
+  width: 100%;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+  transition: 0.3s;
+}
+.login-section .container main .form-section form input:hover {
+  border: 1px solid rgb(106, 106, 106);
+}
+.login-section .container main .form-section form input:focus {
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid rgba(182, 182, 182, 0.461);
+}
+.login-section .container main .form-section form #btn-login {
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 6px;
+  color: #fff;
+  letter-spacing: 1.6px;
+  background: rgb(68, 133, 253);
+}
+.login-section .container main .form-section form #btn-login:hover {
+  background: rgb(46, 119, 255);
+}
+.login-section .container main .form-section form h3 {
+  color: gray;
+  font-weight: 200;
+  letter-spacing: -1.7px;
+  margin-bottom: 6px;
+}
+.login-section .container main .form-section form h3 span {
+  color: rgb(79, 79, 79);
+}
+.login-section .container main .form-section form #log-face {
+  letter-spacing: 1.6px;
+}
+.login-section .container main .form-section form #forgot-pass {
+  color: gray;
+  font-size: 14px;
+}
+.login-section .container footer {
+  height: 15vh;
+  padding: 60px 0;
+}
+.login-section .container footer nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.login-section .container footer nav a {
+  color: gray;
+}
+.login-section .container footer .lang {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 16px;
+  color: gray;
+}/*# sourceMappingURL=login.css.map */
